@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab&display=swap');
+
+/* =-=-=-=-=-=-=
+
+ 	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto Slab', serif;
+
+ =-=-=-=-=-=-= */
+
+*{
+	margin: 0;
+	position: 0;
+}
+ 
+ @font-face {
+	font-family: 'Wisdom Script Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('Wisdom Script AJ.woff') format('woff');
+}
+ @font-face {
+	font-family:'DroidSerif Italic';
+	src: url('droid/DroidSerif-Italic.ttf') format('ttf');
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	text-decoration:none; 
+}
+
+/* =-=-=-=-=-=-= Golden-Header =-=-=-=-=-=-= */
+header{
+	background: url('img/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.gold-header-overlay{
+	background: rgba(0,0,0,.5);
+	padding: 40px 0;
+}
+.gold-header-menu{}
+.gold-logo{}
+.gold-logo h2{
+	font-family: 'Wisdom Script Regular';
+	color: #fed136;
+	font-size: 25px;
+}
+.gold-menu{}
+.gold-menu ul{
+	display: flex;
+	float: right;
+	list-style: none;
+	padding-top: 6px;
+}
+.gold-menu ul li{
+	padding: 0 25px;
+}
+.gold-menu ul  li a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.gold-bannner{
+	text-align: center;
+	padding: 250px 0 160px;
+}
+.gold-bannner h2{
+	font-family:'DroidSerif';
+	color: #fff;
+	font-style: italic;
+	font-size: 45px;
+	
+}
+.gold-bannner h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 35px;
+	
+}
+.gold-bannner a{
+	
+}
+.gold-bannner a button{
+	width: 241px;
+	height: 66px;
+	background: #fed136;
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif Regular;
+	font-weight: bold;
+	margin-top:60px;
+
+}
+
+/* =-=-=-=-=-=-= Golden-Services =-=-=-=-=-=-= */
+.gold-services{
+	padding: 110px 0;
+}
+.gold-services-heading{
+	text-align: center;
+}
+.gold-services-heading h2{
+	color: #222222;
+	font-size: 40px;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.gold-services-heading p{
+	font-size: 20px;
+	font-family:'DroidSerif';
+	color: #777777;
+	font-style: italic;
+}
+.gold-services-content{
+	padding-top:  60px ;
+}
+.gold-services-content-item{}
+.gold-services-content-item-img{
+	width: 70px;
+	height: 70px;
+	border:3px solid #fed136;
+	border-radius: 50%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.gold-services-content-item-img img{}
+.gold-services-content-item-text{
+	text-align: center;
+
+}
+.gold-services-content-item-text h5{
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #222222;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.gold-services-content-item-text p{
+	font-family: 'Roboto Slab', serif Regular;
+	color: #777777;
+	text-align: justify-all;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+/* =-=-=-=-=-=-= Golden-portfolio =-=-=-=-=-=-= */
+.gold-portfolio{
+	background: #f7f7f7;
+	padding: 120px 0 70px;
+}
+.gold-portfolio-content{
+	margin-top: 70px;
+}
+.gold-portfolio-content-item{
+	background: #fff;
+	margin-bottom: 50px;
+}
+.gold-portfolio-content-item-img{}
+.gold-portfolio-content-item-img img{
+	width: 100%;
+}
+
+.gold-portfolio-content-item-text{
+	text-align: center;
+	padding: 30px 0;
+}
+.gold-portfolio-content-item-text h5{
+	font-size: 18px;
+	color: #333333;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin:0;
+	padding: 0;
+}
+.gold-portfolio-content-item-text span{
+	color: #8A8A8A;
+	font-size:17px;
+	font-family:'DroidSerif';
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+/* =-=-=-=-=-=-= Golden-About =-=-=-=-=-=-= */
+.gold-about{
+	padding: 120px 0;
+}
+.gold-about-content-1{
+	margin: 0;
+	padding: 0;
+	background: ;
+	margin-bottom: 90px;	
+}
+#content1{
+	padding-top: 80px;
+}
+.gold-about-text-1{
+	text-align: right;
+}
+.gold-about-text-1 h4{
+	color: #222222;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.gold-about-text-1 h5{
+	color: #222222;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.gold-about-text-1 p{
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	text-align: justify-all;
+}
+.gold-about-img{
+	position: relative;
+}
+.gold-about-img img{
+	width: 100%;
+}
+.gold-about-content-2{
+	margin-bottom: 90px;
+}
+.gold-about-text-2{}
+.gold-about-text-2 h4{
+	color: #222222;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.gold-about-text-2 h5{
+	color: #222222;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.gold-about-text-2 p{
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	color: #777777;
+	text-align: justify-all;
+}
+.gold-about-img:after {
+	content: '';
+	width: 3px;
+	height: 150px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.gold-about-content-last{
+	width: 182px;
+	height: 182px;
+	text-align: center;
+	background: #fed136;
+	border:7px solid #f1f1f1;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+
+}
+.gold-about-content-last p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+}
+
+/* =-=-=-=-=-=-= Golden-Team =-=-=-=-=-=-= */
+.gold-team{
+	background: #f9f9f9;
+	padding: 115px 0 100px;
+}
+.gold-team-content{
+
+}
+.gold-team-content-port{}
+.gold-team-content-port-img{
+	width: 220px;
+	height: 220px;
+	margin: 0 auto;
+	
+}
+.gold-team-content-port-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.gold-team-content-port-text{
+	text-align: center;
+	margin-top: 15px;
+}
+.gold-team-content-port-text h5{
+	 font-family: 'Montserrat', sans-serif;
+	 font-weight: bold;
+	 font-size: 17px;
+	 color: #222222;
+}
+.gold-team-content-port-text p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #777777;
+}
+.gold-team-content-port-icon{
+	
+}
+.gold-team-content-port-icon ul{
+	
+	justify-content: center;
+}
+.gold-team-content-port-icon ul li{
+	width: 40px;
+	height: 40px;
+	border:3px solid #222222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.gold-team-content-port-icon ul li a{
+	color: #222222;
+	font-size: 20px;
+}
+.gold-team-content-port-icon ul li a i{}
+.gold-team-content-ptag{
+	text-align: center;
+	width: 60%;
+	margin:0 auto;
+	margin-top: 55px;
+}
+.gold-team-content-ptag p{
+	color: #777777;
+	font-size: 16px;
+	font-family:  'Roboto Slab', serif;
+}
+.gold-team-footer{
+	padding: 65px 0;
+}
+
+/* =-=-=-=-=-=-= Golden-contact =-=-=-=-=-=-= */
+.gold-contact{
+	background: url('img/contact-back.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 115px 0;
+}
+#color{
+	color: #fff;
+}
+.gold-contact-form{
+	margin-top: 70px;
+}
+.gold-contact-form form{}
+.gold-contact-form form textarea{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #bbbbbb;
+}
+.gold-contact-form form input{
+	text-transform: uppercase;
+	color: #bbbbbb;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 20px 0;
+	padding-left: 20px;
+
+}
+#gap{
+	margin: 25px 0;
+}
+.gold-contact-button{
+	text-align:center;
+	margin-top: 20px;
+}
+.gold-contact-button a{}
+.gold-contact-button button{
+	width: 250px;
+	margin: 0 auto;
+	background: #fed136;
+	padding: 20px 0;
+	border:none;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+
+
+
